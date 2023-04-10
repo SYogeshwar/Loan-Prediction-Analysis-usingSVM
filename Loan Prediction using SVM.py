@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import svm
 from sklearn.metrics import accuracy_score
 # loading the dataset to pandas DataFrame
-loan_dataset = pd.read_csv('/train_u6lujuX_CVtuZ9i (1) (1).csv')
+loan_dataset = pd.read_csv('/content/Loan prediction analysis dataset.csv')
 # printing the first 5 rows of the dataframe
 loan_dataset.head()
 # number of rows and columns
